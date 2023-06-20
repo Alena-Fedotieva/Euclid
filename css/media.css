@@ -1,0 +1,314 @@
+@media (max-width: 1200px) {
+  .header {
+    padding: 0 50px;
+  }
+
+  .header__logo {
+    width: 16%;
+    padding: 26px 0;
+  }
+
+  .header__item:not(:last-child) {
+    margin-right: 60px;
+  }
+
+  .header__search {
+    margin-left: 105px;
+  }
+
+  .conteiner {
+    margin: 0 50px;
+  }
+
+  .hero {
+    padding: 160px 77px;
+    margin-top: 40px;
+  }
+
+  .hero__title {
+    font-size: 60px;
+    line-height: 73px;
+    margin-bottom: 16px;
+  }
+
+  .hero__text {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 60px;
+  }
+
+  .hero__btn {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .about {
+    margin-top: 35px;
+  }
+
+  .about__text {
+    max-width: 100%;
+  }
+
+  .about__section {
+    margin-top: 60px;
+    flex-direction: column;
+  }
+
+  .about__offer {
+    margin: 0;
+    background-size: cover;
+    height: 640px;
+    max-width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .about__offer__content {
+    width: 100%;
+  }
+
+  .stages {
+    margin-top: 77px;
+  }
+
+  .stages__left {
+    width: 90%;
+  }
+
+  .stages__right {
+    background-size: cover;
+    border-radius: 32px;
+  }
+
+  .questions {
+    margin-top: 80px;
+  }
+
+  .questions__list {
+    flex-direction: column;
+  }
+
+  .questions__item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  .footer {
+    margin-top: 80px;
+    padding: 50px 50px;
+  }
+
+  .footer__text {
+    display: none;
+  }
+
+  .footer__content {
+    width: 540px;
+    margin-right: 0;
+  }
+
+  .footer__btn {
+    padding: 19px 37px;
+  }
+}
+
+@media (max-width: 960px) {
+  .header__logo {
+    width: 10%;
+    padding: 17px 0;
+  }
+
+  .header__item {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .header__item:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .header__search {
+    margin-left: 43px;
+  }
+
+  .hero {
+    padding: 160px 40px;
+  }
+
+  .hero__title {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .about__article {
+    padding: 40px 35px;
+  }
+
+  .stages__content {
+    flex-direction: column-reverse;
+  }
+
+  .stages__left {
+    margin: 0;
+  }
+
+  .stages__right {
+    height: 284px;
+    width: 668px;
+    background-size: cover;
+    margin-bottom: 38px;
+  }
+
+  .footer {
+    flex-direction: column-reverse;
+  }
+
+  .footer__list {
+    display: none;
+  }
+
+  .footer__content {
+    margin: 0;
+  }
+
+  .footer__menu {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
+    padding: 0 14px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .header__right {
+    flex-direction: column-reverse;
+    align-items: end;
+  }
+
+  .header__item:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header__list {
+    margin-bottom: 40px;
+    padding-top: 40px;
+    position: relative;
+  }
+
+  .header__item {
+    font-size: 15px;
+    line-height: 20px;
+    z-index: 2;
+    position: relative;
+  }
+
+  .header__list::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+  }
+
+  .header__search {
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .conteiner {
+    margin: 0 15px;
+  }
+
+  .hero {
+    margin-top: 20px;
+    padding: 60px 22px;
+  }
+
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__title {
+    margin-bottom: 6px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .hero__text {
+    margin-bottom: 32px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .hero__btn {
+    padding: 13px 28px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .about {
+    margin-top: 60px;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .about__text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about__section {
+    margin-top: 14px;
+  }
+
+  .about__offer {
+    display: block;
+    background-size: contain;
+    position: relative;
+    background-position: top;
+    border-radius: 0;
+    height: 560px;
+  }
+
+  .about__offer__content {
+    background: none;
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 60%;
+    
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .about__offer__text {
+    width: 100%;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+  }
+
+  .about__btn {
+    color: #ff9900;
+    padding: 13px 24px;
+  }
+}
